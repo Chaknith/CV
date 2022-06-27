@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Chaknith/Chaknith_Bin.github.io.git/precache-manifest.b7a7dde9b6a9a781f152e5aa1db90c30.js"
+  "/Chaknith_Bin.github.io/precache-manifest.81f91b6b67e1fef6b351a5e2c923bad7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Chaknith/Chaknith_Bin.github.io.git/index.html", {
+workbox.routing.registerNavigationRoute("/Chaknith_Bin.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

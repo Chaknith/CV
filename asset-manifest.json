@@ -1,15 +1,15 @@
 {
-  "main.css": "/Chaknith_Bin.github.io/static/css/main.ee9998c8.chunk.css",
-  "main.js": "/Chaknith_Bin.github.io/static/js/main.f600a217.chunk.js",
-  "main.js.map": "/Chaknith_Bin.github.io/static/js/main.f600a217.chunk.js.map",
-  "static/css/1.a3e7c515.chunk.css": "/Chaknith_Bin.github.io/static/css/1.a3e7c515.chunk.css",
-  "static/js/1.667dd484.chunk.js": "/Chaknith_Bin.github.io/static/js/1.667dd484.chunk.js",
-  "static/js/1.667dd484.chunk.js.map": "/Chaknith_Bin.github.io/static/js/1.667dd484.chunk.js.map",
-  "runtime~main.js": "/Chaknith_Bin.github.io/static/js/runtime~main.54315f20.js",
-  "runtime~main.js.map": "/Chaknith_Bin.github.io/static/js/runtime~main.54315f20.js.map",
-  "static/css/main.ee9998c8.chunk.css.map": "/Chaknith_Bin.github.io/static/css/main.ee9998c8.chunk.css.map",
-  "static/css/1.a3e7c515.chunk.css.map": "/Chaknith_Bin.github.io/static/css/1.a3e7c515.chunk.css.map",
-  "index.html": "/Chaknith_Bin.github.io/index.html",
-  "precache-manifest.81f91b6b67e1fef6b351a5e2c923bad7.js": "/Chaknith_Bin.github.io/precache-manifest.81f91b6b67e1fef6b351a5e2c923bad7.js",
-  "service-worker.js": "/Chaknith_Bin.github.io/service-worker.js"
+  "main.css": "/CV/static/css/main.ee9998c8.chunk.css",
+  "main.js": "/CV/static/js/main.f600a217.chunk.js",
+  "main.js.map": "/CV/static/js/main.f600a217.chunk.js.map",
+  "static/css/1.a3e7c515.chunk.css": "/CV/static/css/1.a3e7c515.chunk.css",
+  "static/js/1.667dd484.chunk.js": "/CV/static/js/1.667dd484.chunk.js",
+  "static/js/1.667dd484.chunk.js.map": "/CV/static/js/1.667dd484.chunk.js.map",
+  "runtime~main.js": "/CV/static/js/runtime~main.7f88df48.js",
+  "runtime~main.js.map": "/CV/static/js/runtime~main.7f88df48.js.map",
+  "static/css/1.a3e7c515.chunk.css.map": "/CV/static/css/1.a3e7c515.chunk.css.map",
+  "static/css/main.ee9998c8.chunk.css.map": "/CV/static/css/main.ee9998c8.chunk.css.map",
+  "index.html": "/CV/index.html",
+  "precache-manifest.ec05374ac95e099bc8d8894dfbde2491.js": "/CV/precache-manifest.ec05374ac95e099bc8d8894dfbde2491.js",
+  "service-worker.js": "/CV/service-worker.js"
 }

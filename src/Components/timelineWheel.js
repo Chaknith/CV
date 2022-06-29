@@ -15,6 +15,7 @@ function timelineWheel() {
 	return (
 		<div className="timeline">
 			<h1 className="title">Timeline</h1>
+			<br></br>
 			<div className="fadingEffect"></div>
 			<VerticalTimeline className="makeItCurve">
 				<VerticalTimelineElement
@@ -27,7 +28,7 @@ function timelineWheel() {
 						Working with the frontend development team, mainly help with data
 						arrangement.
 					</p>
-					<p id="program">Reactjs</p>
+					<p id="program">Reactjs | Javascript</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					date={"June 2021 - July 2021 (2 months)"}
@@ -74,7 +75,12 @@ function timelineWheel() {
 					<p id="description">
 						Full-time Computer Engineering scholarship student.
 					</p>
-					<a className={`button schoolButton`} href="/">
+					<a
+						className={`button schoolButton`}
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://drive.google.com/file/d/1pu9yScVExs5sLfB9Pb9wdD-0EMktsVZ1/view?usp=sharing"
+					>
 						View Transcript
 					</a>
 				</VerticalTimelineElement>
@@ -90,7 +96,12 @@ function timelineWheel() {
 					<p id="description">
 						Assising a web developer at Bophana in updating the website.
 					</p>
-					<a className={`button schoolButton`} href="/">
+					<a
+						className={`button schoolButton`}
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://drive.google.com/file/d/1w8D5Qgq35HOGZDdtKKhxNk5QuldniU07/view?usp=sharing"
+					>
 						View Certificate
 					</a>
 				</VerticalTimelineElement>
@@ -106,7 +117,12 @@ function timelineWheel() {
 						Upper Secondary Education - Overall grade: C
 					</h5>
 					<p id="description"></p>
-					<a className={`button schoolButton`} href="/">
+					<a
+						className={`button schoolButton`}
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://drive.google.com/file/d/1VpnRY-0vTLkVBkHAUAlohCMZoO__hre9/view?usp=sharing"
+					>
 						View Certificate
 					</a>
 				</VerticalTimelineElement>
@@ -122,13 +138,24 @@ function timelineWheel() {
 						High school Diploma - CGPA 2.78
 					</h5>
 					<p id="description"></p>
-					<a className={`button schoolButton`} href="/">
+					<a
+						className={`button schoolButton`}
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://drive.google.com/file/d/1EXY-y421iMGCGuoZFHiwSXpl9FyapaoP/view?usp=sharing"
+					>
 						View Transcript
 					</a>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
 			<br></br>
+			<br></br>
+			<br></br>
 			<hr></hr>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
 		</div>
 	);
 }

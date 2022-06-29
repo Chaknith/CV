@@ -1,0 +1,27 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillTitle{
+    color: #2cc7ff ;
+    margin-bottom: 0.7em;
+    font-size: 1.8em;
+}
+
+.skillDescription{
+    margin: 0.8em;
+    color: rgb(60, 60, 60) ;
+    font-size: 1em ;
+}
+
+.skillBlock{
+    margin: 2em;
+    width: 18em;
+    height: 18em;
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 2em;
+    text-align: center;
+}

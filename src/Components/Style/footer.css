@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.307);
+    text-align: center;
+    color: rgb(221, 221, 221);
+}
+
+.social{
+    color: rgba(233, 233, 233, 0.836);
+    margin: 0.6em;
+    border: solid #37e2d4af;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 0.45em;
+    width: 1.7em;
+    height: 1.7em;
+}
+
+h2{
+    padding-top: 1em;
+}
+
+.linkedin{
+    border-radius: 100%;
+}
+
+.credit{
+    color: rgb(75, 75, 75);
+    font-size: 0.8em;
+}

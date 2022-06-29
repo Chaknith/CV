@@ -12,8 +12,20 @@ function App() {
 		<div className="body">
 			<Intro />
 			<TimelineWheel />
-			<Skill />
-			<Language />
+			<Skill
+				skill={["Programming", "Framework", "Database"]}
+				description={[
+					["Python", "Java", "PHP", "Javascript", "HTML", "CSS", "OpenGL"],
+					["React", "Springboot", "Arsa Framework"],
+					["MySQL", "Firebase"],
+				]}
+			/>
+			<Language
+				language={["Khmer", "English"]}
+				description={["Native", "Proficient"]}
+				level={[10, 7]}
+				max={10}
+			/>
 			<Project />
 			<Footer />
 		</div>

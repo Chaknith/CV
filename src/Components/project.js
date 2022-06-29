@@ -14,6 +14,7 @@ function timelineWheel() {
 	return (
 		<div className="timeline">
 			<h1 className="title">Project</h1>
+			<br></br>
 			<div className="fadingEffect"></div>
 			<VerticalTimeline className="makeItCurve">
 				<VerticalTimelineElement
@@ -84,7 +85,13 @@ function timelineWheel() {
 				</VerticalTimelineElement>
 			</VerticalTimeline>
 			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
 			<hr></hr>
+			<br></br>
+			<br></br>
+			<br></br>
 		</div>
 	);
 }

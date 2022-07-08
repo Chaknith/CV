@@ -1,6 +1,7 @@
 .timeline {
     font-size: 16px;
     color: rgb(53, 53, 53);
+    background-color: #32184e;
     /* max-height: 35em;
     overflow: auto; */
   }
@@ -48,12 +49,19 @@
     font-size: 15px;
   }
 
-  #program {
-    margin: 1em 0 0 0;
+  #programWithButton {
+    color: rgb(81, 81, 81);
+    font-style: italic;
+    margin: 1em 0 1em 0;
   }
   
+  #program {
+    color: rgb(81, 81, 81);
+    font-style: italic;
+  }
+
   .button {
-    margin: 10em 0 0 0;
+    margin-top: 1em;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 5px;
@@ -62,6 +70,8 @@
 
   .workButton {
     background-color: #2cc7ff;
+    display: block;
+    width: fit-content;
   }
   
   .workButton:hover {
@@ -70,24 +80,22 @@
   
   .schoolButton {
     background-color: #f9c74f;
+    display: block;
+    width: fit-content;
   }
   
   .schoolButton:hover {
     background-color: #f3bc3c;
   }
 
-  .projectButton {
-    background-color: #2cc7ff;
-  }
-  
-  .projectButton:hover {
-    background-color: #2ab8ec;
-  }
-  
-  @media only screen and (max-width: 1700px) {
+  @media only screen and (max-width: 1170px) {
     .vertical-timeline-element-date {
       display: block !important;
       float: none !important;
       color: rgb(255, 255, 255);
+    }
+
+    .vertical-timeline-element-content {
+      padding: 1em 3em 0em 2em !important;
     }
   }

@@ -11,8 +11,9 @@ import {
 function footer() {
 	return (
 		<div className="footer">
+			<br></br>
 			<h2>Contact me</h2>
-			<p>Email: Chaknithg@gmail.com</p>
+			<p>Chaknithg@gmail.com</p>
 			<br></br>
 			<p className="social-container">
 				<a
@@ -23,15 +24,6 @@ function footer() {
 				>
 					<FontAwesomeIcon className="social" icon={faFacebook} />
 				</a>
-				<a
-					href="https://mail.google.com/mail/u/chaknithg@gmail.com"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="gmail"
-				>
-					<FontAwesomeIcon className="social" icon={faGooglePlus} />
-				</a>
-
 				<a
 					href="https://t.me/Chaknith"
 					className="telegram"

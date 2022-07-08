@@ -1,0 +1,34 @@
+.projectSection {
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+    /* max-height: 35em;
+    overflow: auto; */
+  }
+
+  .projectButton {
+    background-color: #2cc7ff;
+    margin-right: 2em;
+  }
+  
+  .projectButton:hover {
+    background-color: #2ab8ec;
+  }
+  
+
+  .codeButton {
+    background-color: #f9c74f;
+    display: block;
+    width: fit-content;
+  }
+  
+  .codeButton:hover {
+    background-color: #f3bc3c;
+  }
+
+  @media only screen and (max-width: 1170px) {
+    .projectButton {
+      display: block;
+      width: fit-content;
+      margin-bottom: 1em;
+    }
+  }

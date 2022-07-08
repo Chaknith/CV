@@ -1,5 +1,6 @@
 import React from "react";
 import "./Style/timelineWheel.css";
+import "./Style/project.css";
 
 import {
 	VerticalTimeline,
@@ -12,7 +13,8 @@ function timelineWheel() {
 	let projectIconStyles = { background: "#2cc7ff" };
 
 	return (
-		<div className="timeline">
+		<div className="projectSection">
+			<br></br>
 			<h1 className="title">Project</h1>
 			<br></br>
 			<div className="fadingEffect"></div>
@@ -27,9 +29,22 @@ function timelineWheel() {
 						Working with a frontend development team. I worked on arranging the
 						data and show it in a tree manner.
 					</p>
-					<p id="description">React Native | Javascript</p>
-					<a className={`button projectButton`} href="/">
+					<p id="programWithButton">React | Javascript</p>
+					<a
+						className={`button projectButton`}
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://chaknith.github.io/Tree-in-tree/"
+					>
 						View Project
+					</a>
+					<a
+						className={`button codeButton`}
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://github.com/Chaknith/Tree-in-tree/tree/master"
+					>
+						View Project code
 					</a>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
@@ -41,10 +56,15 @@ function timelineWheel() {
 					<p id="description">
 						Working in a group of 3 people to build a game.
 					</p>
-					<p id="description">Arsa Framework</p>
-					<a className={`button projectButton`} href="/">
+					<p id="program">Arsa Framework</p>
+					{/*<a
+						className={`button projectButton`}
+						target="_blank"
+						rel="noopener noreferrer"
+						href="/"
+					>
 						View Project
-					</a>
+					</a>*/}
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					date={""}
@@ -55,12 +75,15 @@ function timelineWheel() {
 						Health monitoring for Covid-19 patient
 					</h3>
 					<p id="description">
-						Working in a group of 3 people to build a game.
+						A senior project that consist of wearable and stationary devices.
+						Wearable has thermistor and heart rate sensor. Stationary has load
+						cell sensor to measure pinch strength and two layered ballon to
+						measure lung capacity.
 					</p>
-					<p id="description">Arsa Framework</p>
-					<a className={`button projectButton`} href="/">
+					<p id="program">Arduino&IoT | Modules | Firebase | React</p>
+					{/*<a className={`button projectButton`} href="/">
 						View Project
-					</a>
+					</a>*/}
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					date={"March 2022 - May 2022"}
@@ -78,18 +101,15 @@ function timelineWheel() {
 						maintenance. A staff could view the payment prove and mark the
 						status of maintenance.
 					</p>
-					<p id="description">HTML | CSS | PHP | MySQL</p>
-					<a className={`button projectButton`} href="/">
+					<p id="program">HTML | CSS | PHP | MySQL</p>
+					{/*<a className={`button projectButton`} href="/">
 						View Project
-					</a>
+					</a>*/}
 				</VerticalTimelineElement>
 			</VerticalTimeline>
 			<br></br>
 			<br></br>
-			<br></br>
-			<br></br>
 			<hr></hr>
-			<br></br>
 			<br></br>
 			<br></br>
 		</div>

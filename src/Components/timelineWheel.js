@@ -14,6 +14,7 @@ function timelineWheel() {
 
 	return (
 		<div className="timeline">
+			<br></br>
 			<h1 className="title">Timeline</h1>
 			<br></br>
 			<div className="fadingEffect"></div>
@@ -25,10 +26,10 @@ function timelineWheel() {
 				>
 					<h3 className="vertical-timeline-element-title">Freelance</h3>
 					<p id="description">
-						Working with the frontend development team, mainly help with data
+						Working with a frontend development team, mainly help with data
 						arrangement.
 					</p>
-					<p id="program">Reactjs | Javascript</p>
+					<p id="program">React | Javascript</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					date={"June 2021 - July 2021 (2 months)"}
@@ -56,9 +57,7 @@ function timelineWheel() {
 					<h5 className="vertical-timeline-element-subtitle">
 						Exchange program
 					</h5>
-					<p id="description">
-						Innovation leadership of industry - MIAS school of business.
-					</p>
+					<p>Innovation leadership of industry - MIAS school of business.</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					date={"August 2018 - June 2022"}
@@ -150,9 +149,7 @@ function timelineWheel() {
 			</VerticalTimeline>
 			<br></br>
 			<br></br>
-			<br></br>
 			<hr></hr>
-			<br></br>
 			<br></br>
 			<br></br>
 			<br></br>

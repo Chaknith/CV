@@ -3,7 +3,8 @@ import "./Style/language.css";
 
 const language = (props) => {
 	return (
-		<div>
+		<div className="languagesection">
+			<br></br>
 			<h1 className="title">Language</h1>
 			<br></br>
 			<br></br>

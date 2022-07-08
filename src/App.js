@@ -15,15 +15,23 @@ function App() {
 			<Skill
 				skill={["Programming", "Framework", "Database"]}
 				description={[
-					["Python", "Java", "PHP", "Javascript", "HTML", "CSS", "OpenGL"],
-					["React", "Springboot", "Arsa Framework"],
+					[
+						"Python",
+						"Java",
+						"PHP",
+						"Javascript & React",
+						"HTML",
+						"CSS",
+						"OpenGL",
+					],
+					["Springboot", "Arsa Framework"],
 					["MySQL", "Firebase"],
 				]}
 			/>
 			<Language
 				language={["Khmer", "English"]}
 				description={["Native", "Proficient"]}
-				level={[10, 7]}
+				level={[10, 8]}
 				max={10}
 			/>
 			<Project />

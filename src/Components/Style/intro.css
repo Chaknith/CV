@@ -2,6 +2,7 @@
     padding: 2em;
     color: #37E2D5;
     font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
 }
 
 .nameBlock{
@@ -17,3 +18,27 @@
     align-items: center;
     height: 100vh;
 }
+
+@media only screen and (max-width: 360px) {
+    .name{
+        font-size: 0.88em;
+    }    
+    .nameBlock{
+        margin: auto;
+        height: 4.4em;
+        width: 20em;
+        background-color: rgba(255, 255, 255, 0.13);
+    }
+  }
+
+  @media only screen and (max-width: 280px) {
+    .name{
+        font-size: 0.75em;
+    }    
+    .nameBlock{
+        margin: auto;
+        height: 3.8em;
+        width: 20em;
+        background-color: rgba(255, 255, 255, 0.13);
+    }
+  }
